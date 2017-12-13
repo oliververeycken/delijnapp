@@ -1,0 +1,57 @@
+<html>
+<head>
+  <link href="/css/style.css" rel="stylesheet" type="text/css">
+  <script src="js/javascript.js"></script>
+</head>
+<body>
+
+  <header>
+    <a href="/"><img src="img/menu.png"/></a>
+  </header>
+
+  <h1>
+    <script type="text/javascript">
+      var d = new Date();
+      var time = d.getHours();
+
+      if (time < 12)
+        {
+          document.write("<b>Goedemorgen!</b>");
+        }
+        if (time > 17)
+        {
+          document.write("<b>Goedenavond!</b>");
+        }
+        if (time => 12)
+        {
+          document.write("<b>Goedemiddag!</b>");
+        }
+      </script>
+    </h1>
+
+    <p>
+      Kies hieronder uw lijn, richting en uur van vertrek om uw review te specifiëren.
+    </p>
+
+    <form id="dropdowns" action="index.ejs">
+
+				<select id="lijn" name="lijn">
+					<option value="000">Lijn</option>
+				</select>
+
+			<br />
+
+				<select id="richting" name="richting">
+					<option value="000">Richting</option>
+				</select>
+
+<h1></h1>
+
+<a href="feel.ejs"><button type="button">Volgende</button></a>
+
+    <footer>
+      <a href="chat.ejs"><img class="chat" src="img/chat.png"></a>
+    </footer>
+
+</body>
+</html>

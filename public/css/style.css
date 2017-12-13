@@ -1,0 +1,103 @@
+html {
+  width: 380px;
+  border: 1px solid black;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: 'Helvetica';
+  color: black;
+  background-color: gray;
+}
+
+#logo {
+  width: 70px;
+  margin-top: 100px;
+}
+
+select {
+  width: 98px;
+}
+
+h1 {
+  font-size: 25px;
+  font-weight: bold;
+  margin-top: 100px;
+  color: gold;
+  margin-left: 10px;
+}
+
+p {
+  width: 200px;
+  font-size: 12.5px;
+  margin: 10px;
+}
+
+#comment {
+  width: 200px;
+  height: 100px;
+  border-radius: 5px;
+  border-color: black;
+  resize: none;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: 170px 170px;
+  grid-gap: 20px;
+  color: #444;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+}
+
+.gevoel {
+  width: 120px;
+  margin: 20px;
+}
+
+.chat {
+  width: 50px;
+  margin: 10px;
+  position: fixed;
+  left: 650px;
+  top: 580px;
+}
+
+#comment {
+  height: 100px;
+  width: 345px;
+  border: 1px solid black;
+  border-radius: 0;
+  margin-bottom: 20px;
+  margin-left: 10px;
+  background-color: grey;
+}
+
+ul {
+  list-style-type: none;
+  margin-left: -30px;
+  margin-top: 50px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+header img {
+  width: 25px;
+}
+
+.hoofdmenu {
+  margin-top: 100px;
+  width: 100%;
+  border: 1px solid blue;
+}
+
+.chapter {
+  width: 100%;
+  height: 100px;
+}
+
+form {
+  margin-left: 10px;
+}
